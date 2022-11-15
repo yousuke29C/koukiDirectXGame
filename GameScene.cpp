@@ -30,7 +30,7 @@ void GameScene::Initialize(DirectXCommon* dxCommon, Input* input)
 	debugText.Initialize(debugTextTexNumber);
 
 	// テクスチャ読み込み
-	Sprite::LoadTexture(1, L"Resources/background.png");
+	Sprite::LoadTexture(1, L"Resources/CG3back.jpg");
 
 	//背景スプライト生成
 	spriteBG = Sprite::Create(1, { 0.0f,0.0f });
