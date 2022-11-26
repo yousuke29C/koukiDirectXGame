@@ -90,11 +90,11 @@ public: // 静的メンバ関数
 	/// <param name="position">座標</param>
 	static void SetTarget(XMFLOAT3 target);
 
-	/*/// <summary>
+	/// <summary>
 	/// ベクトルによる移動
 	/// </summary>
 	/// <param name="move">移動量</param>
-	static void CameraMoveVector(XMFLOAT3 move);*/
+	/*static void CameraMoveVector(XMFLOAT3 move);*/
 
 	/// <summary>
 	/// ベクトルによる視点移動
